@@ -23,8 +23,8 @@ public class Write2Files {
         Map<String,Double> mapSecond = new HashMap<String, Double>();
 
 
-        mapFirst=readFromExcel("C:\\IT\\excel\\Czech_old\\9_A_old.xls", "extended_Arnoud_60_minutes_9A");
-        mapSecond=readFromExcel("C:\\IT\\excel\\Czech_old\\9_D_old.xls", "extended_Arnoud_60_minutes_9D");
+        mapFirst=readFromExcel("C:\\IT\\excel\\13A.xls", "extended_Arnoud_60_minutes_13A_");
+        mapSecond=readFromExcel("C:\\IT\\excel\\13E.xls", "extended_Arnoud_60_minutes_13E");
 
 
         for (Map.Entry<String, Double> entry : mapSecond.entrySet()) {
